@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youth Icon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="video-container">
+        <video autoplay muted loop>
+          <source src="Images/Bg Video.mp4" type="video/mp4">
+        </video>
+      </div>
+    <div class="container">
+      <nav>
+        <img src="Images/logo 2 no background.png" alt="logo" class="logo" />
+        <ul>
+          <li><a href="Profile Card/index.html">Developers</a></li>
+          <li><a href="Projects/index.html">Projects</a></li>          
+          <li><a href="Contact with us/index.html">Contact With Us</a></li>
+        </ul>
+        <!-- <img src="Images/cart.png" alt="logo" class="cart-icon" /> -->
+      </nav>
+      <div class="text-box">
+        <p>THIS IS</p>
+        <h1>YOUTH ICON</h1>
+        <h3>WANT TO INTRODUCE TO YOU WITH A NEW WORLD OF DESIGNS</h3>
+
+        <div class="row">
+          <a href="#">Know More About Me </a>
+          <a id="connect" href="#">Let's Connect With <span>&#x27F6;</span> </a>
+          <span>You Can Explore More About My Potfolio and <br />Personal Life Experiences Here.</span>
+        </div>
+      </div>
+
+<div class="social-icons">
+    <a href="https://www.linkedin.com/in/youthicon/" target="_blank"><img src="Images/linkedin.png" alt=""></a>
+    <a href="https://twitter.com/YouthIc06383365" target="_blank"><img src="Images/twitter.png" alt=""></a>
+    <a href="https://www.instagram.com/youthicon.yi2k23/" target="_blank"><img src="Images/instagram.png" alt=""></a>
+    <a href="https://www.facebook.com/youthicon.yi" target="_blank"><img src="Images/facebook.png" alt=""></a>
+</div>
+
+<!-- For cursor -->
+
+<div id="cursor"></div>
+<div id="cursor2"></div>
+
+
+
+<script>
+  var cursor = document.querySelector( "#cursor" );
+  var cursor2 = document.querySelector( "#cursor2" );
+
+  document.addEventListener( "mousemove", function ( e )
+  {
+      cursor.style.cssText = cursor2.style.cssText = "left:" + e.clientX + "px;" + "top:" + e.clientY + "px;";
+  } )
+
+</script>
+
+
+    </div>
+
+
+  </body>
+</html>
